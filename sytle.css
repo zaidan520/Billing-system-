@@ -1,0 +1,132 @@
+/*
+Restaurant Billing System - Main Stylesheet
+*/
+
+QMainWindow {
+    background-color: #FFFBDE;
+}
+
+QWidget {
+    background-color: transparent;
+    color: #2c3e50;
+}
+
+QLineEdit {
+    background-color: white;
+    border: 2px solid #129990;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 12px;
+    min-height: 20px;
+}
+
+QLineEdit:focus {
+    border-color: #096B68;
+}
+
+QTextEdit {
+    background-color: white;
+    border: 2px solid #129990;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 12px;
+}
+
+QTextEdit:focus {
+    border-color: #096B68;
+}
+
+QComboBox {
+    background-color: white;
+    border: 2px solid #129990;
+    border-radius: 10px;
+    padding: 8px;
+    font-size: 12px;
+    min-height: 35px;
+}
+
+QSpinBox {
+    background-color: white;
+    border: 2px solid #129990;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 12px;
+    min-height: 35px;
+}
+
+QPushButton {
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+QPushButton:hover {
+    cursor: pointer;
+}
+
+QListWidget {
+    background-color: white;
+    border: 1px solid #90D1CA;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+QListWidget::item:selected {
+    background-color: #129990;
+    color: white;
+}
+
+QTableWidget {
+    background-color: white;
+    alternate-background-color: #FFFBDE;
+    gridline-color: #90D1CA;
+}
+
+QHeaderView::section {
+    background-color: #129990;
+    color: white;
+    padding: 8px;
+    font-weight: bold;
+    border: none;
+}
+
+QTabWidget::pane {
+    border: 1px solid #90D1CA;
+    border-radius: 8px;
+    background-color: white;
+}
+
+QTabBar::tab {
+    background-color: #FFFBDE;
+    padding: 8px 20px;
+    font-size: 12px;
+}
+
+QTabBar::tab:selected {
+    background-color: #129990;
+    color: white;
+}
+
+QScrollArea {
+    border: none;
+    background-color: transparent;
+}
+
+QStatusBar {
+    background-color: #90D1CA;
+    padding: 5px;
+}
+
+QGroupBox {
+    font-weight: bold;
+    border: 2px solid #90D1CA;
+    border-radius: 8px;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+QGroupBox::title {
+    left: 10px;
+    padding: 0 5px;
+    color: #129990;
+}
