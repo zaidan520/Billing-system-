@@ -1,0 +1,39 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Build folders
+build/
+dist/
+
+# Backup & temp files
+backups/
+*.bak
+*.tmp
+
+# Receipts (generated files)
+receipts/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Virtual environments (if any)
+venv/
+env/
+
+# Logs
+*.log
+
+# Database (optional - ignore if auto-generated)
+*.db
+*.sqlite3
+
+# PyInstaller
+*.spec
+
+# VS Code / IDE
+.vscode/
+.idea/
